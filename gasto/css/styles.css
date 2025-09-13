@@ -1,0 +1,77 @@
+.central{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.central #consumo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.central #distancia{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.central #km{
+    margin-bottom: 15px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.central #km1{
+    margin-bottom: 15px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.central #preco{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.central #preco2{
+    margin-bottom: 10px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.central #botao{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.central #resultado{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
